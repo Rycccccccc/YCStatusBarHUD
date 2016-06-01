@@ -13,8 +13,8 @@
 		059AECC91CFF20EB00342816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059AECC71CFF20EB00342816 /* Main.storyboard */; };
 		059AECCB1CFF20EB00342816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 059AECCA1CFF20EB00342816 /* Assets.xcassets */; };
 		059AECCE1CFF20EB00342816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 059AECCC1CFF20EB00342816 /* LaunchScreen.storyboard */; };
-		059AECD91CFF259F00342816 /* YCStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 059AECD61CFF259F00342816 /* YCStatusBarHUD.bundle */; };
-		059AECDA1CFF259F00342816 /* YCStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 059AECD81CFF259F00342816 /* YCStatusBarHUD.m */; };
+		059AECDF1CFF282F00342816 /* YCStatusBarHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 059AECDC1CFF282F00342816 /* YCStatusBarHUD.bundle */; };
+		059AECE01CFF282F00342816 /* YCStatusBarHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 059AECDE1CFF282F00342816 /* YCStatusBarHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,9 +28,9 @@
 		059AECCA1CFF20EB00342816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		059AECCD1CFF20EB00342816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		059AECCF1CFF20EB00342816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		059AECD61CFF259F00342816 /* YCStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YCStatusBarHUD.bundle; sourceTree = "<group>"; };
-		059AECD71CFF259F00342816 /* YCStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCStatusBarHUD.h; sourceTree = "<group>"; };
-		059AECD81CFF259F00342816 /* YCStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStatusBarHUD.m; sourceTree = "<group>"; };
+		059AECDC1CFF282F00342816 /* YCStatusBarHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YCStatusBarHUD.bundle; sourceTree = "<group>"; };
+		059AECDD1CFF282F00342816 /* YCStatusBarHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCStatusBarHUD.h; sourceTree = "<group>"; };
+		059AECDE1CFF282F00342816 /* YCStatusBarHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCStatusBarHUD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +63,7 @@
 		059AECBD1CFF20EB00342816 /* YCStatusBarHUDDemo */ = {
 			isa = PBXGroup;
 			children = (
-				059AECD51CFF259F00342816 /* YCStatusBarHUD */,
+				059AECDB1CFF282F00342816 /* YCStatusBarHUD */,
 				059AECC11CFF20EB00342816 /* AppDelegate.h */,
 				059AECC21CFF20EB00342816 /* AppDelegate.m */,
 				059AECC41CFF20EB00342816 /* ViewController.h */,
@@ -85,15 +85,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		059AECD51CFF259F00342816 /* YCStatusBarHUD */ = {
+		059AECDB1CFF282F00342816 /* YCStatusBarHUD */ = {
 			isa = PBXGroup;
 			children = (
-				059AECD61CFF259F00342816 /* YCStatusBarHUD.bundle */,
-				059AECD71CFF259F00342816 /* YCStatusBarHUD.h */,
-				059AECD81CFF259F00342816 /* YCStatusBarHUD.m */,
+				059AECDC1CFF282F00342816 /* YCStatusBarHUD.bundle */,
+				059AECDD1CFF282F00342816 /* YCStatusBarHUD.h */,
+				059AECDE1CFF282F00342816 /* YCStatusBarHUD.m */,
 			);
 			name = YCStatusBarHUD;
-			path = ../../../Desktop/YCStatusBarHUD/YCStatusBarHUD/YCStatusBarHUD;
+			path = ../../YCStatusBarHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +156,7 @@
 				059AECCE1CFF20EB00342816 /* LaunchScreen.storyboard in Resources */,
 				059AECCB1CFF20EB00342816 /* Assets.xcassets in Resources */,
 				059AECC91CFF20EB00342816 /* Main.storyboard in Resources */,
-				059AECD91CFF259F00342816 /* YCStatusBarHUD.bundle in Resources */,
+				059AECDF1CFF282F00342816 /* YCStatusBarHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				059AECC61CFF20EB00342816 /* ViewController.m in Sources */,
-				059AECDA1CFF259F00342816 /* YCStatusBarHUD.m in Sources */,
+				059AECE01CFF282F00342816 /* YCStatusBarHUD.m in Sources */,
 				059AECC31CFF20EB00342816 /* AppDelegate.m in Sources */,
 				059AECC01CFF20EB00342816 /* main.m in Sources */,
 			);
