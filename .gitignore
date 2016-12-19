@@ -4,7 +4,11 @@
 
 ## Build generated
 build/
+<<<<<<< HEAD
 DerivedData
+=======
+DerivedData/
+>>>>>>> origin/master
 
 ## Various settings
 *.pbxuser
@@ -15,6 +19,7 @@ DerivedData
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+<<<<<<< HEAD
 xcuserdata
 
 ## Other
@@ -22,10 +27,22 @@ xcuserdata
 *.moved-aside
 *.xcuserstate
 *.xcscmblueprint
+=======
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xcuserstate
+>>>>>>> origin/master
 
 ## Obj-C/Swift specific
 *.hmap
 *.ipa
+<<<<<<< HEAD
+=======
+*.dSYM.zip
+*.dSYM
+>>>>>>> origin/master
 
 # CocoaPods
 #
@@ -47,7 +64,21 @@ Carthage/Build
 # It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
 # screenshots whenever they are needed.
 # For more information about the recommended setup visit:
+<<<<<<< HEAD
 # https://github.com/fastlane/fastlane/blob/master/docs/Gitignore.md
 
 fastlane/report.xml
 fastlane/screenshots
+=======
+# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
+
+fastlane/report.xml
+fastlane/screenshots
+
+#Code Injection
+#
+# After new code Injection tools there's a generated folder /iOSInjectionProject
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+>>>>>>> origin/master

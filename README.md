@@ -1,4 +1,5 @@
 # YCStatusBarHUD
+<<<<<<< HEAD
 一个简单易用的状态栏指示器框架。。。。。。
 
 ## 普通显示
@@ -27,3 +28,6 @@ objc
 objc
     [YCStatusBarHUD hide];
 ```
+=======
+状态显示控件
+>>>>>>> origin/master
