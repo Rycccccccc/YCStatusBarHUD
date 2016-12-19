@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // 1. 1.0 完毕
+    
 }
 
 - (IBAction)message:(id)sender {
