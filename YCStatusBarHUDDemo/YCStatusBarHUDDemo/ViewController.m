@@ -24,10 +24,6 @@
 
     
 
-    // 开发1，2功能
-    
-    
-
 }
 
 - (IBAction)message:(id)sender {
