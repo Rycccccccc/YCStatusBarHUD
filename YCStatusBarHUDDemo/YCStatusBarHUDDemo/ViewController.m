@@ -19,6 +19,14 @@
     
     // 1. 1.0 完毕
     
+    
+    
+    
+    
+    
+    
+    
+    // 1.0 版本的bug 修复成功了。
 }
 
 - (IBAction)message:(id)sender {
